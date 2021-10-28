@@ -91,7 +91,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 482px;
+  padding: 20px 482px 150px;
 }
 
 .topcontent1 {
@@ -130,3 +130,32 @@ button {
 }
 
 /* Content 2 */
+
+.content2 {
+  display: flex;
+  background-color: #e5e7eb;
+  flex-direction: column;
+  padding: 150px 482px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quotecredits {
+  align-self: flex-end;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+/* Content 3 */
+
+.content3 {
+  display: flex;
+}
+
+.bluebox {
+  background-color: #3882f6;
+}
